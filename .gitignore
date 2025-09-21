@@ -1,3 +1,16 @@
 .idea/
 docs/
 build/
+# Example binaries
+examples/*/example
+examples/*/main
+**/main
+# Go build artifacts
+*.test
+*.exe
+*.dll
+*.so
+*.dylib
+# Go modules temporary directories
+examples/*/go.mod
+examples/*/go.sum
